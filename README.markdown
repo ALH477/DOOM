@@ -1,14 +1,10 @@
 # DOOM DCF Integration
 
 **Version 1.0.0 | August 25, 2025**  
-**Developed by ALH477**  
-**Contact:** info@demodllc.example  
+**Developed by ALH477** 
 **License:** GNU General Public License v3.0 (GPL-3.0)  
 **GitHub Repo:** [https://github.com/ALH477/DeMoD-Communication-Framework](https://github.com/ALH477/DeMoD-Communication-Framework)  
-[![Build Status](https://github.com/ALH477/DeMoD-Communication-Framework/workflows/CI/badge.svg)](https://github.com/ALH477/DeMoD-Communication-Framework/actions)  
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
-[![Coverage](https://img.shields.io/badge/Coverage-80%25-green.svg)](https://github.com/ALH477/DeMoD-Communication-Framework)
-
 ## Overview
 The DOOM DCF Integration project adapts the DeMoD Communications Framework (DCF) to enable real-time multiplayer networking for the classic game DOOM (1993), leveraging DCF's low-latency, modular, and interoperable features. This integration uses the DCF C SDK to synchronize player states (position, actions, health) across peers in a peer-to-peer (P2P) network, with self-healing redundancy and dynamic role assignment via AUTO mode. The project is part of the mono-repo at [ALH477/DeMoD-Communication-Framework](https://github.com/ALH477/DeMoD-Communication-Framework), designed for extensibility and compatibility with modern and legacy systems.
 
